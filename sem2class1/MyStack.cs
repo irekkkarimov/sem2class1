@@ -29,7 +29,7 @@ public class MyStack
 
     public bool IsEmpty()
     {
-        if (_counter == 0)
+        if (_counter == -1)
             return true;
         return false;
     }
