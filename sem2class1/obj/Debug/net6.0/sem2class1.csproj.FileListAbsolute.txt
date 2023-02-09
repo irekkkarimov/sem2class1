@@ -1,0 +1,15 @@
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\bin\Debug\net6.0\sem2class1.exe
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\bin\Debug\net6.0\sem2class1.deps.json
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\bin\Debug\net6.0\sem2class1.runtimeconfig.json
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\bin\Debug\net6.0\sem2class1.dll
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\bin\Debug\net6.0\sem2class1.pdb
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\obj\Debug\net6.0\sem2class1.csproj.AssemblyReference.cache
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\obj\Debug\net6.0\sem2class1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\obj\Debug\net6.0\sem2class1.AssemblyInfoInputs.cache
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\obj\Debug\net6.0\sem2class1.AssemblyInfo.cs
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\obj\Debug\net6.0\sem2class1.csproj.CoreCompileInputs.cache
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\obj\Debug\net6.0\sem2class1.dll
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\obj\Debug\net6.0\refint\sem2class1.dll
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\obj\Debug\net6.0\sem2class1.pdb
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\obj\Debug\net6.0\sem2class1.genruntimeconfig.cache
+C:\Users\Booba\RiderProjects\sem2class1\sem2class1\obj\Debug\net6.0\ref\sem2class1.dll
