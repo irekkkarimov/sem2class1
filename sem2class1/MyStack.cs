@@ -2,24 +2,24 @@ using System.Collections;
 
 namespace sem2class1;
 
-public class MyStack
+public class MyStack<T>
 {
-    private int[] _stack;
+    private T[] _stack;
     private int _counter = -1;
     
     public MyStack(int maxSize)
     {
-        _stack = new int[maxSize];
+        _stack = new T[maxSize];
     }
     
-    public void Push(int number)
+    public void Push(T value)
     {
         if (_counter == (_stack.Count() - 1)) throw new ArgumentException("The stack is full");
-        _stack[_counter + 1] = number;
+        _stack[_counter + 1] = value;
         _counter++;
     }
 
-    public int Pop()
+    public T Pop()
     {
         if (_counter == -1) throw new ArgumentException("The stack is empty");
         var res = _stack[_counter];
@@ -37,10 +37,6 @@ public class MyStack
     public void Clear()
     {
         _counter = -1;
-        for (int i = 0; i < _stack.Length; i++)
-        {
-            _stack[i] = 0;
-        }
     }
 
     public int Count()
