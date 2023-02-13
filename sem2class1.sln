@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sem2class1", "sem2class1\sem2class1.csproj", "{13B7CA3C-8C2E-4B9A-8CA6-6B7352FCBF9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracketSequenceTests", "BracketSequenceTests\BracketSequenceTests.csproj", "{65D6595A-58A3-421D-BD44-3A207052EC34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{13B7CA3C-8C2E-4B9A-8CA6-6B7352FCBF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13B7CA3C-8C2E-4B9A-8CA6-6B7352FCBF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13B7CA3C-8C2E-4B9A-8CA6-6B7352FCBF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D6595A-58A3-421D-BD44-3A207052EC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D6595A-58A3-421D-BD44-3A207052EC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D6595A-58A3-421D-BD44-3A207052EC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D6595A-58A3-421D-BD44-3A207052EC34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
