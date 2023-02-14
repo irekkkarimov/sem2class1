@@ -1,3 +1,5 @@
+using System.Xml;
+
 namespace sem2class1;
 
 public class BracketsSequence
@@ -7,6 +9,14 @@ public class BracketsSequence
     private int index = -1;
     private int current = -1;
     private bool _ifSequenceCorrect = true;
+
+    private Dictionary<char, char> brackets = new Dictionary<char, char>()
+    {
+        { '(', ')' },
+        { '{', '}' },
+        { '[', ']' },
+        { '<', '>' }
+    };
 
     public bool IfSequenceCorrect
     {
@@ -41,7 +51,7 @@ public class BracketsSequence
         indexes = new List<Tuple<int, int>>(sequence.Length / 2);
         foreach (var i in sequence)
         {
-            if (i == '(')
+            if (brackets.Keys.Contains(i))
             {
                 stack.Push(i);
                 index++;
@@ -50,7 +60,7 @@ public class BracketsSequence
             else
             {
                 current++;
-                if (i == ')' && stack.Count() > 0 && stack.Pop() == '(')
+                if (brackets.Values.Contains(i) && stack.Count() > 0 && brackets[stack.Pop()] == i)
                 {
                     indexes.Add(new Tuple<int, int>(index, current));
                     index--;

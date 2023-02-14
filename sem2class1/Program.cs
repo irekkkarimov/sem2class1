@@ -64,13 +64,13 @@ public class Program
         test.BracketSequenceChecker("(()");
         Console.WriteLine("-----------------");
         test.BracketSequenceChecker("text");
-
+        Console.WriteLine("-----------------");
+        test.BracketSequenceChecker("{}()<>[]");
 
 
 
     }
 
-    
     
     public class Fibonacci : IEnumerable<int>
     {

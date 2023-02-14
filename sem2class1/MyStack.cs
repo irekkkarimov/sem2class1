@@ -29,9 +29,7 @@ public class MyStack<T>
 
     public bool IsEmpty()
     {
-        if (_counter == -1)
-            return true;
-        return false;
+        return _counter == -1;
     }
 
     public void Clear()
