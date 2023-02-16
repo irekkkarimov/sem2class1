@@ -59,9 +59,4 @@ public class CycledQueue<T>
         queue.RemoveFirst();
         return temp;
     }
-
-
-
-
-
 }
