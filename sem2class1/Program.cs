@@ -1,6 +1,6 @@
 ﻿namespace sem2class1;
 
-public static class Program<arg>
+public static class Program
 {
     public static void Main()
     {
@@ -9,8 +9,8 @@ public static class Program<arg>
         
     public static void OrderedListTest()
     {
-        var testingArray = new int[] { 25, 150, 321, 5, 3, 234, 54, 234, 654, 76, 34, 7, 987, 564, 234, };
-        var testingArrayForMerge = new int[] { 4, 6, 8, 26, 988 };
+        var testingArray = new [] { 25, 150, 321, 5, 3, 234, 54, 234, 654, 76, 34, 7, 987, 564, 234, };
+        var testingArrayForMerge = new [] { 4, 6, 8, 26, 988 };
         var test = new OrderedList<int>();
         var test2 = new OrderedList<int>();
         foreach (var number in testingArray)
