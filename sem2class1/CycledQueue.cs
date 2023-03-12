@@ -39,7 +39,7 @@ public class CycledQueue<T>
             }
             else
             {
-                current = current % topElement;
+                current %= topElement;
                 queue.AddFirst(value);
                 takenPlaces[current] = 1;
             }
